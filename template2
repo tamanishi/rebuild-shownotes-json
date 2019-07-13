@@ -1,0 +1,20 @@
+
+
+/**
+ * rawJsonResponse delievers a response with a Json Object inputted directly
+ * into the worker script
+ * @param {Object} json
+ */
+async function rawJsonResponse(json) {
+  const init = {
+    headers: {
+      'content-type': 'application/json;charset=UTF-8',
+    },
+  }
+
+  return new Response(JSON.stringify(json), init)
+}
+
+addEventListener('fetch', event => {
+  return event.respondWith(rawJsonResponse(episodes))
+})
