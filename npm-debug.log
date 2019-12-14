@@ -1,0 +1,368 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i', '-g', 'webpack' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 verbose cache add [ 'webpack', null ]
+5 verbose cache add name=undefined spec="webpack" args=["webpack",null]
+6 verbose parsed url Url {
+6 verbose parsed url   protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'webpack',
+6 verbose parsed url   path: 'webpack',
+6 verbose parsed url   href: 'webpack' }
+7 silly lockFile 057b6197-webpack webpack
+8 verbose lock webpack /home/pi/.npm/057b6197-webpack.lock
+9 silly lockFile 057b6197-webpack webpack
+10 silly lockFile 057b6197-webpack webpack
+11 verbose addNamed [ 'webpack', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 9c8dd08b-webpack webpack@
+14 verbose lock webpack@ /home/pi/.npm/9c8dd08b-webpack.lock
+15 silly addNameRange { name: 'webpack', range: '*', hasData: false }
+16 verbose request where is /webpack
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 8154f635f7ab1e10
+19 verbose url raw /webpack
+20 verbose url resolving [ 'https://registry.npmjs.org/', './webpack' ]
+21 verbose url resolved https://registry.npmjs.org/webpack
+22 verbose request where is https://registry.npmjs.org/webpack
+23 info trying registry request attempt 1 at 12:58:29 PM
+24 verbose etag W/"b0f55a2fdf47577e0277db38c119439f"
+25 http GET https://registry.npmjs.org/webpack
+26 http 304 https://registry.npmjs.org/webpack
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Sat, 14 Dec 2019 03:58:29 GMT',
+27 silly registry.get     connection: 'close',
+27 silly registry.get     'set-cookie':
+27 silly registry.get      [ '__cfduid=dd923f9b3f287686675e16fab117908661576295909; expires=Mon, 13-Jan-20 03:58:29 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+27 silly registry.get     'cf-ray': '544d4278f9b16eb5-NRT',
+27 silly registry.get     age: '724',
+27 silly registry.get     'cache-control': 'public, max-age=300',
+27 silly registry.get     etag: '"b0f55a2fdf47577e0277db38c119439f"',
+27 silly registry.get     'last-modified': 'Sun, 08 Dec 2019 21:51:24 GMT',
+27 silly registry.get     vary: 'Accept-Encoding',
+27 silly registry.get     'cf-cache-status': 'HIT',
+27 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+27 silly registry.get     server: 'cloudflare' } ]
+28 verbose etag https://registry.npmjs.org/webpack from cache
+29 silly addNameRange number 2 { name: 'webpack', range: '*', hasData: true }
+30 silly addNameRange versions [ 'webpack',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.1.4',
+30 silly addNameRange     '0.1.5',
+30 silly addNameRange     '0.1.6',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '0.2.2',
+30 silly addNameRange     '0.2.3',
+30 silly addNameRange     '0.2.4',
+30 silly addNameRange     '0.2.6',
+30 silly addNameRange     '0.2.7',
+30 silly addNameRange     '0.2.8',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.3.1',
+30 silly addNameRange     '0.3.2',
+30 silly addNameRange     '0.3.3',
+30 silly addNameRange     '0.3.4',
+30 silly addNameRange     '0.3.6',
+30 silly addNameRange     '0.3.7',
+30 silly addNameRange     '0.3.8',
+30 silly addNameRange     '0.3.9',
+30 silly addNameRange     '0.3.10',
+30 silly addNameRange     '0.3.11',
+30 silly addNameRange     '0.3.12',
+30 silly addNameRange     '0.3.13',
+30 silly addNameRange     '0.3.14',
+30 silly addNameRange     '0.3.15',
+30 silly addNameRange     '0.3.16',
+30 silly addNameRange     '0.3.17',
+30 silly addNameRange     '0.3.18',
+30 silly addNameRange     '0.3.19',
+30 silly addNameRange     '0.3.20',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.4.2',
+30 silly addNameRange     '0.4.3',
+30 silly addNameRange     '0.4.4',
+30 silly addNameRange     '0.4.5',
+30 silly addNameRange     '0.4.6',
+30 silly addNameRange     '0.4.7',
+30 silly addNameRange     '0.4.8',
+30 silly addNameRange     '0.4.9',
+30 silly addNameRange     '0.4.10',
+30 silly addNameRange     '0.4.11',
+30 silly addNameRange     '0.4.12',
+30 silly addNameRange     '0.4.13',
+30 silly addNameRange     '0.4.14',
+30 silly addNameRange     '0.4.15',
+30 silly addNameRange     '0.4.16',
+30 silly addNameRange     '0.4.17',
+30 silly addNameRange     '0.4.18',
+30 silly addNameRange     '0.4.19',
+30 silly addNameRange     '0.4.20',
+30 silly addNameRange     '0.4.21',
+30 silly addNameRange     '0.4.23',
+30 silly addNameRange     '0.4.24',
+30 silly addNameRange     '0.4.25',
+30 silly addNameRange     '0.5.0',
+30 silly addNameRange     '0.5.1',
+30 silly addNameRange     '0.5.2',
+30 silly addNameRange     '0.5.3',
+30 silly addNameRange     '0.5.4',
+30 silly addNameRange     '0.5.5',
+30 silly addNameRange     '0.5.6',
+30 silly addNameRange     '0.5.7',
+30 silly addNameRange     '0.5.8',
+30 silly addNameRange     '0.5.10',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '0.6.1',
+30 silly addNameRange     '0.6.2',
+30 silly addNameRange     '0.7.0-beta',
+30 silly addNameRange     '0.7.0-beta2',
+30 silly addNameRange     '0.7.0-beta3',
+30 silly addNameRange     '0.7.0-beta4',
+30 silly addNameRange     '0.7.0-beta5',
+30 silly addNameRange     '0.7.0-beta6',
+30 silly addNameRange     '0.7.0-beta7',
+30 silly addNameRange     '0.7.0-beta8',
+30 silly addNameRange     '0.7.0',
+30 silly addNameRange     '0.7.1',
+30 silly addNameRange     '0.7.2',
+30 silly addNameRange     '0.7.3',
+30 silly addNameRange     '0.7.4',
+30 silly addNameRange     '0.7.5',
+30 silly addNameRange     '0.7.6',
+30 silly addNameRange     '0.7.7',
+30 silly addNameRange     '0.7.8',
+30 silly addNameRange     '0.7.9',
+30 silly addNameRange     '0.7.11',
+30 silly addNameRange     '0.7.12',
+30 silly addNameRange     '0.7.13',
+30 silly addNameRange     '0.7.14',
+30 silly addNameRange     '0.7.15',
+30 silly addNameRange     '0.7.16',
+30 silly addNameRange     '0.7.17',
+30 silly addNameRange     '0.8.0-beta1',
+30 silly addNameRange     '0.8.0-beta2',
+30 silly addNameRange     ... 525 more items ] ]
+31 verbose addNamed [ 'webpack', '4.41.2' ]
+32 verbose addNamed [ '4.41.2', '4.41.2' ]
+33 silly lockFile ed370ced-webpack-4-41-2 webpack@4.41.2
+34 verbose lock webpack@4.41.2 /home/pi/.npm/ed370ced-webpack-4-41-2.lock
+35 silly lockFile ed370ced-webpack-4-41-2 webpack@4.41.2
+36 silly lockFile ed370ced-webpack-4-41-2 webpack@4.41.2
+37 silly lockFile 9c8dd08b-webpack webpack@
+38 silly lockFile 9c8dd08b-webpack webpack@
+39 silly resolved [ { name: 'webpack',
+39 silly resolved     version: '4.41.2',
+39 silly resolved     author: { name: 'Tobias Koppers @sokra' },
+39 silly resolved     description: 'Packs CommonJs/AMD modules for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand. Support loaders to preprocess files, i.e. json, jsx, es7, css, less, ... and your custom stuff.',
+39 silly resolved     license: 'MIT',
+39 silly resolved     dependencies:
+39 silly resolved      { '@webassemblyjs/ast': '1.8.5',
+39 silly resolved        '@webassemblyjs/helper-module-context': '1.8.5',
+39 silly resolved        '@webassemblyjs/wasm-edit': '1.8.5',
+39 silly resolved        '@webassemblyjs/wasm-parser': '1.8.5',
+39 silly resolved        acorn: '^6.2.1',
+39 silly resolved        ajv: '^6.10.2',
+39 silly resolved        'ajv-keywords': '^3.4.1',
+39 silly resolved        'chrome-trace-event': '^1.0.2',
+39 silly resolved        'enhanced-resolve': '^4.1.0',
+39 silly resolved        'eslint-scope': '^4.0.3',
+39 silly resolved        'json-parse-better-errors': '^1.0.2',
+39 silly resolved        'loader-runner': '^2.4.0',
+39 silly resolved        'loader-utils': '^1.2.3',
+39 silly resolved        'memory-fs': '^0.4.1',
+39 silly resolved        micromatch: '^3.1.10',
+39 silly resolved        mkdirp: '^0.5.1',
+39 silly resolved        'neo-async': '^2.6.1',
+39 silly resolved        'node-libs-browser': '^2.2.1',
+39 silly resolved        'schema-utils': '^1.0.0',
+39 silly resolved        tapable: '^1.1.3',
+39 silly resolved        'terser-webpack-plugin': '^1.4.1',
+39 silly resolved        watchpack: '^1.6.0',
+39 silly resolved        'webpack-sources': '^1.4.1' },
+39 silly resolved     devDependencies:
+39 silly resolved      { '@types/node': '^10.12.21',
+39 silly resolved        '@types/tapable': '^1.0.1',
+39 silly resolved        '@types/webpack-sources': '^0.1.4',
+39 silly resolved        '@yarnpkg/lockfile': '^1.1.0',
+39 silly resolved        benchmark: '^2.1.1',
+39 silly resolved        'bundle-loader': '~0.5.0',
+39 silly resolved        'coffee-loader': '^0.9.0',
+39 silly resolved        coffeescript: '^2.3.2',
+39 silly resolved        coveralls: '^3.0.2',
+39 silly resolved        'css-loader': '^2.1.0',
+39 silly resolved        'es6-promise-polyfill': '^1.1.1',
+39 silly resolved        eslint: '^5.8.0',
+39 silly resolved        'eslint-config-prettier': '^4.0.0',
+39 silly resolved        'eslint-plugin-jest': '^22.2.2',
+39 silly resolved        'eslint-plugin-jsdoc': '^15.3.2',
+39 silly resolved        'eslint-plugin-node': '^8.0.0',
+39 silly resolved        'eslint-plugin-prettier': '^3.0.0',
+39 silly resolved        express: '~4.16.4',
+39 silly resolved        'file-loader': '^3.0.1',
+39 silly resolved        glob: '^7.1.3',
+39 silly resolved        husky: '^1.1.3',
+39 silly resolved        'i18n-webpack-plugin': '^1.0.0',
+39 silly resolved        istanbul: '^0.4.5',
+39 silly resolved        jest: '^24.9.0',
+39 silly resolved        'jest-junit': '^8.0.0',
+39 silly resolved        'json-loader': '^0.5.7',
+39 silly resolved        'json-schema-to-typescript': '^6.0.1',
+39 silly resolved        less: '^3.9.0',
+39 silly resolved        'less-loader': '^4.0.3',
+39 silly resolved        'lint-staged': '^8.0.4',
+39 silly resolved        lodash: '^4.17.4',
+39 silly resolved        prettier: '^1.14.3',
+39 silly resolved        pug: '^2.0.4',
+39 silly resolved        'pug-loader': '^2.4.0',
+39 silly resolved        'raw-loader': '^1.0.0',
+39 silly resolved        react: '^16.8.0',
+39 silly resolved        'react-dom': '^16.8.0',
+39 silly resolved        rimraf: '^2.6.2',
+39 silly resolved        'script-loader': '~0.7.0',
+39 silly resolved        'simple-git': '^1.65.0',
+39 silly resolved        'strip-ansi': '^5.2.0',
+39 silly resolved        'style-loader': '^0.23.1',
+39 silly resolved        typescript: '^3.0.0-rc',
+39 silly resolved        'url-loader': '^1.1.2',
+39 silly resolved        'val-loader': '^1.0.2',
+39 silly resolved        'vm-browserify': '~1.1.0',
+39 silly resolved        'wast-loader': '^1.5.5',
+39 silly resolved        'webpack-dev-middleware': '^3.5.1',
+39 silly resolved        'worker-loader': '^2.0.0',
+39 silly resolved        xxhashjs: '^0.2.1' },
+39 silly resolved     engines: { node: '>=6.11.5' },
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'git+https://github.com/webpack/webpack.git' },
+39 silly resolved     homepage: 'https://github.com/webpack/webpack',
+39 silly resolved     main: 'lib/webpack.js',
+39 silly resolved     web: 'lib/webpack.web.js',
+39 silly resolved     bin: { webpack: './bin/webpack.js' },
+39 silly resolved     scripts:
+39 silly resolved      { setup: 'node ./setup/setup.js',
+39 silly resolved        test: 'node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest',
+39 silly resolved        'test:update-snapshots': 'yarn jest -u',
+39 silly resolved        'test:integration': 'node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.test.js"',
+39 silly resolved        'test:basic': 'node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest --testMatch "<rootDir>/te{st/TestCasesNormal,st/StatsTestCases,st/ConfigTestCases}.test.js"',
+39 silly resolved        'test:unit': 'node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.unittest.js"',
+39 silly resolved        'travis:integration': 'yarn cover:integration --ci $JEST',
+39 silly resolved        'travis:basic': 'yarn cover:basic --ci $JEST',
+39 silly resolved        'travis:lintunit': 'yarn lint && yarn cover:unit --ci $JEST',
+39 silly resolved        'travis:benchmark': 'yarn benchmark --ci',
+39 silly resolved        'appveyor:integration': 'yarn cover:integration --ci %JEST%',
+39 silly resolved        'appveyor:unit': 'yarn cover:unit --ci %JEST%',
+39 silly resolved        'appveyor:benchmark': 'yarn benchmark --ci',
+39 silly resolved        'build:examples': 'cd examples && node buildAll.js',
+39 silly resolved        pretest: 'yarn lint',
+39 silly resolved        prelint: 'yarn setup',
+39 silly resolved        lint: 'yarn code-lint && yarn jest-lint && yarn type-lint && yarn special-lint',
+39 silly resolved        'code-lint': 'eslint . --ext \'.js\' --cache',
+39 silly resolved        'type-lint': 'tsc --pretty',
+39 silly resolved        'special-lint': 'node tooling/inherit-types && node tooling/format-schemas && node tooling/compile-to-definitions',
+39 silly resolved        'special-lint-fix': 'node tooling/inherit-types --write --override && node tooling/format-schemas --write && node tooling/compile-to-definitions --write',
+39 silly resolved        fix: 'yarn code-lint --fix && yarn special-lint-fix',
+39 silly resolved        pretty: 'prettier --loglevel warn --write "*.{ts,js,json,yml,yaml}" "{setup,lib,bin,hot,buildin,benchmark,tooling,schemas}/**/*.{js,json}" "test/*.js" "test/helpers/*.js" "test/{configCases,watchCases,statsCases,hotCases}/**/webpack.config.js" "examples/**/webpack.config.js"',
+39 silly resolved        'jest-lint': 'node --max-old-space-size=4096 node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.lint.js" --no-verbose',
+39 silly resolved        benchmark: 'node --max-old-space-size=4096 --trace-deprecation node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.benchmark.js" --runInBand',
+39 silly resolved        cover: 'yarn cover:all && yarn cover:report',
+39 silly resolved        'cover:all': 'node --max-old-space-size=4096 node_modules/jest-cli/bin/jest --coverage',
+39 silly resolved        'cover:basic': 'node --max-old-space-size=4096 node_modules/jest-cli/bin/jest --testMatch "<rootDir>/te{st/TestCasesNormal,st/StatsTestCases,st/ConfigTestCases}.test.js" --coverage',
+39 silly resolved        'cover:integration': 'node --max-old-space-size=4096 node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.test.js" --coverage',
+39 silly resolved        'cover:unit': 'node --max-old-space-size=4096 node_modules/jest-cli/bin/jest --testMatch "<rootDir>/test/*.unittest.js" --coverage',
+39 silly resolved        'cover:report': 'istanbul report' },
+39 silly resolved     husky: { hooks: [Object] },
+39 silly resolved     'lint-staged':
+39 silly resolved      { '*.js|{lib,setup,bin,hot,buildin,tooling,schemas}/**/*.js|test/*.js|{test,examples}/**/webpack.config.js}': [Array] },
+39 silly resolved     jest:
+39 silly resolved      { forceExit: true,
+39 silly resolved        setupFilesAfterEnv: [Array],
+39 silly resolved        testMatch: [Array],
+39 silly resolved        watchPathIgnorePatterns: [Array],
+39 silly resolved        modulePathIgnorePatterns: [Array],
+39 silly resolved        transformIgnorePatterns: [Array],
+39 silly resolved        coverageDirectory: '<rootDir>/coverage',
+39 silly resolved        coveragePathIgnorePatterns: [Array],
+39 silly resolved        testEnvironment: 'node',
+39 silly resolved        coverageReporters: [Array] },
+39 silly resolved     gitHead: '11e94dd2d0a8d8baae75e715ff8a69f27a9e3014',
+39 silly resolved     bugs: { url: 'https://github.com/webpack/webpack/issues' },
+39 silly resolved     _id: 'webpack@4.41.2',
+39 silly resolved     _npmVersion: '6.4.1',
+39 silly resolved     _nodeVersion: '10.15.3',
+39 silly resolved     _npmUser: { name: 'sokra', email: 'tobias.koppers@googlemail.com' },
+39 silly resolved     dist:
+39 silly resolved      { integrity: 'sha512-Zhw69edTGfbz9/8JJoyRQ/pq8FYUoY0diOXqW0T6yhgdhCv6wr0hra5DwwWexNRns2Z2+gsnrNcbe9hbGBgk/A==',
+39 silly resolved        shasum: 'c34ec76daa3a8468c9b61a50336d8e3303dce74e',
+39 silly resolved        tarball: 'https://registry.npmjs.org/webpack/-/webpack-4.41.2.tgz',
+39 silly resolved        fileCount: 357,
+39 silly resolved        unpackedSize: 1462030,
+39 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdpcNuCRA9TVsSAnZWagAAO58P/Re2uPmWIddOFs3C3Pw9\nROKDAPH2GZHAPKyMb8ZtFZxNyoBrEx41bXLX4hcMrLR1bbT8XBY4o30t8ZPA\naV9UTvyjR07Jbcy76z2/gpR/IQupeZNr6apScMrmu+GLDfXSIQiBN/kis/Jz\nNBx1oTqZbYX8gyu/whA7aIGNJ0SfdkrUBBdQ0Ua6HXya/+V7AZVNgZkVsG/a\nYJ4c354zrgcRRj9Ku7+Ni32h5GPqvHGk6UwNXA2S57Q38UJz3PClKQINQy5g\nj8S7+MfdJOGcDqF4fVv1xn1FtYqVA+tEotcTeXyt+oF0WoDqdH5nF3W0Gx1p\n6UCD+gsXFOWpSgJjSSwuE7hoA0ANuy/vmKsxQBj3BNWdHmt8V5QQVazzH7xB\nveoPJKXHwgA/12Z0YcqyUROGP4cv/to/+XETRhdGNt/LlwkCHGAtyDkcQv5F\nP5JjA+mH3VBnjIGIC13w7dMfHVFAzOdZ/rxR8pZKEaSIrCY8Uj5H1Xyg79OG\nTCnyCoSIRYf6SdUe4tgugpdEWSraEWr1SSLW0cndv3BaFF+gmHE1w1XmYNpW\n5HLlnlCO9wHxujgPFpl831IvopCEwaiBm0D2OGgvAZXCRsi6f58t0D15jWgI\nAGyaLMdDWFB+ofqXjAhIRLh/g52odiFs6hhY64HdbZwOcUA1NAVBrJNv4IOv\ntENt\r\n=bqWt\r\n-----END PGP SIGNATURE-----\r\n' },
+39 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+39 silly resolved     directories: {},
+39 silly resolved     _npmOperationalInternal:
+39 silly resolved      { host: 's3://npm-registry-packages',
+39 silly resolved        tmp: 'tmp/webpack_4.41.2_1571144557273_0.35883075970840284' },
+39 silly resolved     _hasShrinkwrap: false,
+39 silly resolved     _shasum: 'c34ec76daa3a8468c9b61a50336d8e3303dce74e',
+39 silly resolved     _from: 'webpack@',
+39 silly resolved     _resolved: 'https://registry.npmjs.org/webpack/-/webpack-4.41.2.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install webpack@4.41.2 into /usr/local/lib
+41 info installOne webpack@4.41.2
+42 verbose lib/node_modules/webpack unbuild
+43 verbose tar unpack /home/pi/.npm/webpack/4.41.2/package.tgz
+44 silly lockFile dd1c7ecc-r-local-lib-node-modules-webpack tar:///usr/local/lib/node_modules/webpack
+45 verbose lock tar:///usr/local/lib/node_modules/webpack /home/pi/.npm/dd1c7ecc-r-local-lib-node-modules-webpack.lock
+46 silly lockFile c408f8d3-i-npm-webpack-4-41-2-package-tgz tar:///home/pi/.npm/webpack/4.41.2/package.tgz
+47 verbose lock tar:///home/pi/.npm/webpack/4.41.2/package.tgz /home/pi/.npm/c408f8d3-i-npm-webpack-4-41-2-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error tar.unpack untar error /home/pi/.npm/webpack/4.41.2/package.tgz
+50 silly lockFile dd1c7ecc-r-local-lib-node-modules-webpack tar:///usr/local/lib/node_modules/webpack
+51 silly lockFile dd1c7ecc-r-local-lib-node-modules-webpack tar:///usr/local/lib/node_modules/webpack
+52 silly lockFile c408f8d3-i-npm-webpack-4-41-2-package-tgz tar:///home/pi/.npm/webpack/4.41.2/package.tgz
+53 silly lockFile c408f8d3-i-npm-webpack-4-41-2-package-tgz tar:///home/pi/.npm/webpack/4.41.2/package.tgz
+54 verbose lib/node_modules/webpack unbuild
+55 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/webpack'
+55 error  { Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/webpack'
+55 error   errno: -13,
+55 error   code: 'EACCES',
+55 error   syscall: 'mkdir',
+55 error   path: '/usr/local/lib/node_modules/webpack',
+55 error   fstream_type: 'Directory',
+55 error   fstream_path: '/usr/local/lib/node_modules/webpack',
+55 error   fstream_class: 'DirWriter',
+55 error   fstream_stack:
+55 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:35:25',
+55 error      '/usr/lib/nodejs/mkdirp/index.js:46:53',
+55 error      'FSReqWrap.oncomplete (fs.js:152:21)' ] }
+56 error Please try running this command again as root/Administrator.
+57 error System Linux 4.19.81-v7+
+58 error command "/usr/bin/node" "/usr/bin/npm" "i" "-g" "webpack"
+59 error cwd /home/pi/src/rebuild-shownotes-json
+60 error node -v v8.11.1
+61 error npm -v 1.4.21
+62 error path /usr/local/lib/node_modules/webpack
+63 error syscall mkdir
+64 error fstream_path /usr/local/lib/node_modules/webpack
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno -13
+69 error stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/webpack'
+70 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:35:25
+70 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:46:53
+70 error fstream_stack FSReqWrap.oncomplete (fs.js:152:21)
+71 verbose exit [ -13, true ]
