@@ -3,4 +3,4 @@ wrangler.toml
 .apienv
 dist/*
 wrap.sh
-
+.env
